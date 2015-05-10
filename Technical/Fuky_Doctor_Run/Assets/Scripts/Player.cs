@@ -21,8 +21,6 @@ public class Player : MonoBehaviour {
 	
 	void Update()
 	{
-		Debug.Log(input.taps);
-		
 		grounded = Physics2D.OverlapCircle(groundCheck.position, 0.1f, layerGround);
 		if (grounded == true && input.tap == true)
 		{
@@ -40,6 +38,9 @@ public class Player : MonoBehaviour {
 	
 	void OnTriggerEnter2D(Collider2D col)
 	{
+		if (col.gameObject.tag == "item") {
+			Destroy(col.gameObject);
+		}
 	}
 	
 }

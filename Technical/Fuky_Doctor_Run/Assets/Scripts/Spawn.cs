@@ -4,12 +4,11 @@ using System.Collections;
 public class Spawn : MonoBehaviour {
 
 	public float distanceTime = 3.0f;
-
+	public GameObject item;
 	float subTime = 0.0f;
 
 	float startTime = 0.0f;
 
-	public GameObject vatCan;
 	// Use this for initialization
 	void Start () {
 	
@@ -18,10 +17,15 @@ public class Spawn : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		subTime = Time.time - startTime;
-
+		int num = Random.Range (0,ResourceController.Instance.MedicineLibrary.Count);
 		if (subTime > distanceTime) {
 
-			Instantiate(vatCan,transform.position,transform.rotation);
+			GameObject prefab = Instantiate(item);
+			ItemScrips itemScript = prefab.GetComponent<ItemScrips>();
+			itemScript.key = num;
+			itemScript.sprite = ResourceController.Instance.MedicineLibrary[num];
+			prefab.transform.SetParent(transform);
+			itemScript.UpdateX();
 			startTime =Time.time;
 		}
 	}

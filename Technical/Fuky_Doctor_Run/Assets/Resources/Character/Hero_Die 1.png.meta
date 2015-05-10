@@ -1,9 +1,29 @@
 fileFormatVersion: 2
 guid: 7ffc99751352dbe4fb5690f38aaf8abd
-timeCreated: 1431247714
+timeCreated: 1431250330
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Hero_Die 1_4
+    21300002: Hero_Die 1_3
+    21300004: Hero_Die 1_2
+    21300006: Hero_Die 1_1
+    21300008: Hero_Die 1_0
+    21300010: Hero_Die 1_8
+    21300012: Hero_Die 1_7
+    21300014: Hero_Die 1_6
+    21300016: Hero_Die 1_5
+    21300018: Hero_Die 1_9
+    21300020: Hero_Die 1_11
+    21300022: Hero_Die 1_10
+    21300024: Hero_Die 1_14
+    21300026: Hero_Die 1_13
+    21300028: Hero_Die 1_12
+    21300030: Hero_Die 1_16
+    21300032: Hero_Die 1_15
+    21300034: Hero_Die 1_17
+    21300036: Hero_Die 1_18
+    21300038: Hero_Die 1_19
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -30,14 +50,14 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -48,7 +68,207 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: Hero_Die 1_4
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 656
+        width: 86
+        height: 102
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hero_Die 1_3
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 656
+        width: 112
+        height: 106
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hero_Die 1_2
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 656
+        width: 106
+        height: 116
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hero_Die 1_1
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 656
+        width: 87
+        height: 115
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hero_Die 1_0
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 658
+        width: 77
+        height: 98
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hero_Die 1_8
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 426
+        width: 208
+        height: 177
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hero_Die 1_7
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 436
+        width: 190
+        height: 156
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hero_Die 1_6
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 454
+        width: 86
+        height: 102
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hero_Die 1_5
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 454
+        width: 86
+        height: 102
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hero_Die 1_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 422
+        width: 211
+        height: 183
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hero_Die 1_11
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 237
+        width: 191
+        height: 167
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hero_Die 1_10
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 204
+        width: 213
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hero_Die 1_14
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 283
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hero_Die 1_13
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 284
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hero_Die 1_12
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 285
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hero_Die 1_16
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 28
+        width: 136
+        height: 135
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hero_Die 1_15
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 0
+        width: 147
+        height: 192
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hero_Die 1_17
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 29
+        width: 135
+        height: 133
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hero_Die 1_18
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 39
+        width: 134
+        height: 125
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hero_Die 1_19
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 64
+        width: 63
+        height: 62
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
   assetBundleName: 
